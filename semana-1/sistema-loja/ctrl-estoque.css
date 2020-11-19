@@ -1,0 +1,58 @@
+body {
+    background-color: grey;
+}
+
+img {
+    width: 20%;
+}
+
+
+
+tr {
+    font-size: 23px;
+}
+
+.foto1 {
+    margin-left: 37%;
+    width: 25%;
+    border: 4px solid salmon;
+}
+
+
+h1, p, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.menu{
+    font-size: 30px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    box-sizing: 10px;
+    background-color: grey;
+    margin-left: 27%;
+    margin-bottom: 40px;
+    
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+}
+
+.rede {
+    margin-bottom: 5px;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.rede-social {
+    width: 20%;
+    display: block;
+    margin-left: 43%;
+    text-align: center;
+}
