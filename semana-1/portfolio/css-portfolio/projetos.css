@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+
+body {
+    background-color: #659DBD;
+}
+
+div > img {
+    width: 5%;
+    margin-bottom: 5%;
+    margin-left: 48%;
+}
+
+section {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+img {
+    border-radius: 5%;
+    border: 2px solid black;
+    width: 30%;
+    height: 100%;
+}
+
+.menu {
+    font-size: 30px;
+    box-sizing: 10px;
+    background-color: #FBEEC1;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.turma {
+    font-family: Goldman,Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    display: inline-flex;
+    width: 20%;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 3.7%;
+    position: absolute;
+    color: red;
+} 
+
+h4 {
+    font-family: Goldman,Arial, Helvetica, sans-serif;
+    color: white;
+    display: inline-flex;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    margin-left: 70%;
+    margin-top: 4.2%;
+    
+} 
+
+h2 {
+    text-align: center;
+}
+
+a:hover {
+    color: darkgreen;
+  }
+
