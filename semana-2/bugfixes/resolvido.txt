@@ -1,0 +1,32 @@
+git commit -m "1- Bug: [Tela Comprar] Botão "Voltar" não está funcionando
+Adicionado uma tag <a> e href para linkar o botão VOLTAR para a página home
+
+2 - Bug: [Tela Home] Botão  "Comprar" está no lugar errado
+Adicionado uma margin-top de 5% no botão comprar
+
+3 - Bug : [Tela Home] A mensagem da seção azul está muito próxima do cabeçalho 
+Adicionado algumas tags br no html para dar o devido espaçamento
+
+4 - Bug : [Tela Home] Formatação da mensagem da seção azul está errada
+Adicionado algumas tags br no html e removido o ol, substituindo por li type=1
+
+5 - Bug : [Tela Comprar] O texto da tabela está com a formatação errada
+ Alterado a formatação do texto da tabela, o size de 15px para 20px
+
+6 - Bug : [Tela Comprar] As imagens da tabela não estão iguais
+Removido o background preto da imagem de fundo da calça
+
+7 - Bug :  [Tela Comprar] Ao lado do campo de busca, deveria ter um ícone com uma imagem de lupa
+Alterado height de 15px para 20px e adicionado a width auto
+
+8 - Bug : [Tela Comprar] Colocar efeitos de clique e sobreposição nos botões
+Adicionado efeito hover com background-color e cursor pointer em todos os botões
+
+ 9 - Bug : [Tela Comprar] Arrumar borda do campo de texto
+Com a correção do bug 7, a borda de texto está corrigida
+
+10 - Bug: [Tela Comprar] Arrumar a fonte de texto
+Alterado todos os textos para family Arial
+
+11 - Bug: [Tela Comprar] Centralizar a tabela 
+Adicionado margin-left de 30% no container-da-tabela, margin-left de 48% e margin-top de 5% no back-button"    
