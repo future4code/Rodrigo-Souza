@@ -210,6 +210,7 @@
 // que o usuário tem que pagar (ou seja, o valor unitário do ingresso multiplicado pela quantidade). Abaixo, há a tabela com os valores de cada ingresso e exemplos de execução do 
 // programa. Lembrando que o valor de jogos internacionais é o mesmo de jogos domésticos, mas seus preços devem ser dados em dólar (considerar a cotação de U$1,00 = R$4,10)
 
+//DO
 SFCategoria1 = 1320
 SFCategoria2 = 880
 SFCategoria3 = 550
@@ -224,7 +225,24 @@ FICategoria1 = 1980
 FICategoria2 = 1320
 FICategoria3 = 880
 FICategoria4 = 330
+//DO
 
+//IN
+SFCategoriaIN1 = 5412
+SFCategoriaIN2 = 3608
+SFCategoriaIN3 = 2255
+SFCategoriaIN4 = 902
+
+DTCategoriaIN1 = 2706
+DTCategoriaIN2 = 1804
+DTCategoriaIN3 = 1353
+DTCategoriaIN4 = 697
+
+FICategoriaIN1 = 8118
+FICategoriaIN2 = 5412
+FICategoriaIN3 = 3608
+FICategoriaIN4 = 1353
+//IN
 
 console.log("---Dados de compra---")
 
@@ -261,69 +279,140 @@ console.log("Quantidade de Ingressos:", qtdIngresso)
 console.log("---Valores---")
 
 if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoria === 1 && qtdIngresso > 1) {
-    console.log("Valor do Ingresso:", SFCategoria1)
-    console.log("Valor Total:", SFCategoria1 * qtdIngresso)
+    console.log("Valor do Ingresso:", SFCategoria1, "R$")
+    console.log("Valor Total:", SFCategoria1 * qtdIngresso, "R$")
+}
+
+else if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoria === 2 && qtdIngresso > 1 ) {
+    console.log("Valor do Ingresso:", SFCategoria2, "R$")
+    console.log("Valor Total:", SFCategoria2 * qtdIngresso, "R$")
 }
 
 
 
-
-
- else if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoria === 2 && qtdIngresso > 1 ) {
-    console.log("Valor do Ingresso:", SFCategoria2)
-    console.log("Valor Total:", SFCategoria2 * qtdIngresso)
+else if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoria === 3 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", SFCategoria3, "R$")
+    console.log("Valor Total", SFCategoria3 * qtdIngresso, "R$")
 }
 
 
 
+else if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoria === 4 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", SFCategoria4, "R$")
+    console.log("Valor Total", SFCategoria4 * qtdIngresso, "R$")
+}
 
 
-// if (tipoDeJogo === "DO" || etapaDoJogo === "SF" || categoria === 3 && qtdIngresso > 1) {
-//     console.log("Valor do Ingresso:", SFCategoria3)
-//     console.log("Valor Total", SFCategoria3 * qtdIngresso)
-// }
-
-
-
-
-
-
-// if (tipoDeJogo === "DO" || etapaDoJogo === "SF" || categoria === 4 && qtdIngresso > 1) {
-//     console.log("Valor do Ingresso:", SFCategoria4)
-//     console.log("Valor Total", SFCategoria4 * qtdIngresso)
-// }
-
-
-// if (tipoDeJogo === "DO" || etapaDoJogo === "DT" || categoria === 1 && qtdIngresso > 1) {
-//     console.log("Valor do Ingresso:", DTCategoria1)
-//     console.log("Valor Total", DTCategoria1 * qtdIngresso)
-// }
+else if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoria === 1 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", DTCategoria1, "R$")
+    console.log("Valor Total", DTCategoria1 * qtdIngresso, "R$")
+}
 
 
 
-// if (tipoDeJogo === "DO" || etapaDoJogo === "DT" || categoria === 2 && qtdIngresso > 1) {
-//     console.log("Valor do Ingresso:", DTCategoria2)
-//     console.log("Valor Total", DTCategoria2 * qtdIngresso)
-// }
+else if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoria === 2 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", DTCategoria2, "R$")
+    console.log("Valor Total", DTCategoria2 * qtdIngresso, "R$")
+}
 
 
-// if (tipoDeJogo === "DO" || etapaDoJogo === "DT" || categoria === 3 && qtdIngresso > 1) {
-//     console.log("Valor do Ingresso:", DTCategoria3)
-//     console.log("Valor Total", DTCategoria3 * qtdIngresso)
-// }
+else if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoria === 3 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", DTCategoria3, "R$")
+    console.log("Valor Total", DTCategoria3 * qtdIngresso, "R$")
+}
 
-// if (tipoDeJogo === "DO" || etapaDoJogo === "DT" || categoria === 4 && qtdIngresso > 1) {
-//     console.log("Valor do Ingresso:", DTCategoria4)
-//     console.log("Valor Total", DTCategoria4 * qtdIngresso)
-// }
+else if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoria === 4 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", DTCategoria4, "R$")
+    console.log("Valor Total", DTCategoria4 * qtdIngresso, "R$")
+}
 
-// if (tipoDeJogo === "DO" || etapaDoJogo === "DT" || categoria === 4 && qtdIngresso > 1) {
+else if (tipoDeJogo === "DO" && etapaDoJogo === "FI" && categoria === 1 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", FICategoria1, "R$")
+    console.log("Valor Total", FICategoria1 * qtdIngresso, "R$")
+}
+
+else if (tipoDeJogo === "DO" && etapaDoJogo === "FI" && categoria === 2 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", FICategoria2, "R$")
+    console.log("Valor Total", FICategoria2 * qtdIngresso, "R$")
+}
+
+else if (tipoDeJogo === "DO" && etapaDoJogo === "FI" && categoria === 3 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", FICategoria3, "R$")
+    console.log("Valor Total", FICategoria3 * qtdIngresso, "R$")
+}
+
+else if (tipoDeJogo === "DO" && etapaDoJogo === "FI" && categoria === 4 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", FICategoria4, "R$")
+    console.log("Valor Total", FICategoria4 * qtdIngresso, "R$")
+}
+
+else if (tipoDeJogo === "IN" && etapaDoJogo === "SF" && categoria === 1 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", SFCategoriaIN1, "R$")
+    console.log("Valor Total", SFCategoriaIN1 * qtdIngresso, "R$")
+}
+
+else if (tipoDeJogo === "IN" && etapaDoJogo === "SF" && categoria === 2 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", SFCategoriaIN2, "R$")
+    console.log("Valor Total", SFCategoriaIN2 * qtdIngresso, "R$")
+}
+
+else if (tipoDeJogo === "IN" && etapaDoJogo === "SF" && categoria === 3 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", SFCategoriaIN3, "R$")
+    console.log("Valor Total", SFCategoriaIN3 * qtdIngresso, "R$")
+}
+
+else if (tipoDeJogo === "IN" && etapaDoJogo === "SF" && categoria === 4 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", SFCategoriaIN4, "R$")
+    console.log("Valor Total", SFCategoriaIN4 * qtdIngresso, "R$")
+}
+
+else if (tipoDeJogo === "IN" && etapaDoJogo === "DT" && categoria === 1 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", DTCategoriaIN1, "R$")
+    console.log("Valor Total", DTCategoriaIN1 * qtdIngresso, "R$")
+}
+
+else if (tipoDeJogo === "IN" && etapaDoJogo === "DT" && categoria === 2 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", DTCategoriaIN2, "R$")
+    console.log("Valor Total", DTCategoriaIN2 * qtdIngresso, "R$")
+}
+
+else if (tipoDeJogo === "IN" && etapaDoJogo === "DT" && categoria === 3 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", DTCategoriaIN3, "R$")
+    console.log("Valor Total", DTCategoriaIN3 * qtdIngresso, "R$")
+}
+
+else if (tipoDeJogo === "IN" && etapaDoJogo === "DT" && categoria === 4 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", DTCategoriaIN4, "R$")
+    console.log("Valor Total", DTCategoriaIN4 * qtdIngresso, "R$")
+}
+
+else if (tipoDeJogo === "IN" && etapaDoJogo === "FI" && categoria === 1 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", FICategoriaIN1, "R$")
+    console.log("Valor Total", FICategoriaIN1 * qtdIngresso, "R$")
+}
+
+else if (tipoDeJogo === "IN" && etapaDoJogo === "FI" && categoria === 2 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", FICategoriaIN2, "R$")
+    console.log("Valor Total", FICategoriaIN2 * qtdIngresso, "R$")
+}
+
+else if (tipoDeJogo === "IN" && etapaDoJogo === "FI" && categoria === 3 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", FICategoriaIN3, "R$")
+    console.log("Valor Total", FICategoriaIN3 * qtdIngresso, "R$")
+}
+
+else if (tipoDeJogo === "IN" && etapaDoJogo === "FI" && categoria === 4 && qtdIngresso > 1) {
+    console.log("Valor do Ingresso:", FICategoriaIN4, "R$")
+    console.log("Valor Total", FICategoriaIN4 * qtdIngresso, "R$")
+}
 
 
+else if (categoria <= 0 || categoria >= 5) {
+    console.log("Categoria não definida")
+}
 
-
-
-
-
+else if (qtdIngresso < 1) {
+    console.log("Digite um número acima de 0 para continuar com as compras dos ingressos")
+}
 
 
