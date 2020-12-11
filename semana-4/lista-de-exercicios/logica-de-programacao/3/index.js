@@ -11,4 +11,4 @@ while(i <= num) {
 }
 
 quantidadeDeNumerosPares(10)
-quantidadeDeNumerosPares(5)
+quantidadeDeNumerosPares(6)
