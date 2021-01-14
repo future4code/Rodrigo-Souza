@@ -1,0 +1,9 @@
+.App {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid black;
+}
